@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FaHome, FaBars } from 'react-icons/fa';
-import "../styles/navbar.css";
+import "../styles/Navbar.css";
 
 const Navbar = () => {
   const location = useLocation();
