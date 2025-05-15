@@ -1,0 +1,26 @@
+/* Styles for Campania pages - using common CRUD styling */
+.campanias-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Additional status styles */
+.status.active {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status.inactive {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  display: inline-block;
+}
+
+/* The rest of the styling is shared with other CRUD pages */

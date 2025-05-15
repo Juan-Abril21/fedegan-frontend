@@ -1,0 +1,6 @@
+/* Styles for Vacunador pages - using common CRUD styling */
+.vacunadores-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
