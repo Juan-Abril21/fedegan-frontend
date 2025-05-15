@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { FaHome, FaBars } from 'react-icons/fa';
 import '../styles/Navbar.css';
 
-const Navbar = () => {
+const NavBar = () => {
   const location = useLocation();
   const [menuOpen, setMenuOpen] = React.useState(false);
 
@@ -56,4 +56,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
