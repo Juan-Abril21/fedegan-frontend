@@ -6,7 +6,6 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-logo">
           <img src="/fedeganLogo.png" alt="FEDEGAN Logo" />
-          <span>FEDEGAN</span>
         </div>
         <div className="footer-text">
           <p>Sistema de Gestión Ganadera © {new Date().getFullYear()}</p>
