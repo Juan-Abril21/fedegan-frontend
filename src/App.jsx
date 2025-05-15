@@ -37,7 +37,7 @@ import BrotesList from './pages/brote/BrotesList';
 import BroteForm from './pages/brote/BroteForm';
 import BroteDetail from './pages/brote/BroteDetail';
 
-import Navbar from './components/NavBar';
+import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -45,7 +45,7 @@ function App() {
   return (
     <Router>
       <div className="app-container">
-        <Navbar />
+        <NavBar />
         <main className="content">
           <Routes>
             <Route path="/" element={<HomePage />} />
