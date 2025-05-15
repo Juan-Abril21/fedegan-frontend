@@ -37,7 +37,7 @@ import BrotesList from './pages/brote/BrotesList';
 import BroteForm from './pages/brote/BroteForm';
 import BroteDetail from './pages/brote/BroteDetail';
 
-import NavBar from './components/NavBar';
+import NavBar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
 
