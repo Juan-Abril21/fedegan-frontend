@@ -85,14 +85,12 @@ const AnimalDetail = () => {
         <h1>Detalles del Animal</h1>
         <div className="detail-actions">
           <Link to="/animales" className="btn-back">
-            <FaArrowLeft /> Volver
+            <FaArrowLeft />
           </Link>
           <Link to={`/animales/edit/${id}`} className="btn-edit">
-            <FaEdit /> Editar
+            <FaEdit />
           </Link>
-          <button className="btn-delete" onClick={handleDelete}>
-            <FaTrash /> Eliminar
-          </button>
+            <FaTrash className="btn-delete" onClick={handleDelete}/>
         </div>
       </div>
 

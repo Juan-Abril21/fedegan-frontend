@@ -60,14 +60,12 @@ const CampaniaDetail = () => {
         <h1>Detalles de la Campaña</h1>
         <div className="detail-actions">
           <Link to="/campanias" className="btn-back">
-            <FaArrowLeft /> Volver
+            <FaArrowLeft />
           </Link>
           <Link to={`/campanias/edit/${id}`} className="btn-edit">
-            <FaEdit /> Editar
+            <FaEdit />
           </Link>
-          <button className="btn-delete" onClick={handleDelete}>
-            <FaTrash /> Eliminar
-          </button>
+            <FaTrash className="btn-delete" onClick={handleDelete}/>
         </div>
       </div>
 

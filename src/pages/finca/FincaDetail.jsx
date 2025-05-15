@@ -55,14 +55,12 @@ const FincaDetail = () => {
         <h1>Detalles de la Finca</h1>
         <div className="detail-actions">
           <Link to="/fincas" className="btn-back">
-            <FaArrowLeft /> Volver
+            <FaArrowLeft />
           </Link>
           <Link to={`/fincas/edit/${id}`} className="btn-edit">
-            <FaEdit /> Editar
+            <FaEdit />
           </Link>
-          <button className="btn-delete" onClick={handleDelete}>
-            <FaTrash /> Eliminar
-          </button>
+            <FaTrash className="btn-delete" onClick={handleDelete}/> 
         </div>
       </div>
 

@@ -91,14 +91,12 @@ const MovimientoDetail = () => {
         <h1>Detalle de Movimiento Animal</h1>
         <div className="detail-actions">
           <Link to="/movimientos" className="btn-back">
-            <FaArrowLeft /> Volver
+            <FaArrowLeft />
           </Link>
           <Link to={`/movimientos/edit/${id}`} className="btn-edit">
-            <FaEdit /> Editar
+            <FaEdit />
           </Link>
-          <button className="btn-delete" onClick={handleDelete}>
-            <FaTrash /> Eliminar
-          </button>
+            <FaTrash className="btn-delete" onClick={handleDelete}/>
         </div>
       </div>
 

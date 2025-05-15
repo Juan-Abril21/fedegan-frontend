@@ -62,14 +62,12 @@ const BroteDetail = () => {
         <h1>Detalle de Brote Sanitario</h1>
         <div className="detail-actions">
           <Link to="/brotes" className="btn-back">
-            <FaArrowLeft /> Volver
+            <FaArrowLeft />
           </Link>
           <Link to={`/brotes/edit/${id}`} className="btn-edit">
-            <FaEdit /> Editar
+            <FaEdit />
           </Link>
-          <button className="btn-delete" onClick={handleDelete}>
-            <FaTrash /> Eliminar
-          </button>
+            <FaTrash className="btn-delete" onClick={handleDelete}/>
         </div>
       </div>
 
